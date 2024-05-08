@@ -147,7 +147,6 @@ class Jobs extends Component {
         data-testid="button"
         className="jobs-failure-button"
         onClick={this.getJobs}
-        aria-label="Logout"
       >
         Retry
       </button>
@@ -224,7 +223,6 @@ class Jobs extends Component {
                 <button
                   type="button"
                   data-testid="searchButton"
-                  aria-label="Logout"
                   className="search-button-container-desktop"
                   onClick={this.getJobs}
                 >
